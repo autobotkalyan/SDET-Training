@@ -8,7 +8,7 @@ Feature: Creating smoke test for regres.in API callcle
     And I validate the email as janet.weaver@reqres.in
 
 
-  @smokeapi
+  @smokeap
   Scenario: Creating POST Call for Single User
     Given I am baseURI of the regres application
     When I passing endpoints for create user

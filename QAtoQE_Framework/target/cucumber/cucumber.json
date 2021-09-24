@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-23T01:07:55.784Z",
+        "start_timestamp": "2021-09-24T01:00:39.649Z",
         "line": 4,
         "name": "Creating GET Call for Single User",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 533158000,
+              "duration": 493749000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1186244000,
+              "duration": 1150795000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1428000,
+              "duration": 1087000,
               "status": "passed"
             },
             "line": 7,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 54927000,
+              "duration": 58462000,
               "status": "passed"
             },
             "line": 8,
@@ -68,82 +68,6 @@
                 }
               ],
               "location": "stepDefinitions.RegresSteps.iValidateTheEmailAsJanetWeaverReqresIn(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smokeapi"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-23T01:07:57.567Z",
-        "line": 12,
-        "name": "Creating POST Call for Single User",
-        "description": "",
-        "id": "creating-smoke-test-for-regres.in-api-callcle;creating-post-call-for-single-user",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 28000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I am baseURI of the regres application",
-            "match": {
-              "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 977091000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I passing endpoints for create user",
-            "match": {
-              "location": "stepDefinitions.RegresSteps.iPassingEndpointsForCreateUser()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 44000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I validate the Status code as 201",
-            "match": {
-              "arguments": [
-                {
-                  "val": "201",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 383000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I validate the name as morpheus",
-            "match": {
-              "arguments": [
-                {
-                  "val": "morpheus",
-                  "offset": 23
-                }
-              ],
-              "location": "stepDefinitions.RegresSteps.iValidateTheNameAsMorpheus(java.lang.String)"
             },
             "keyword": "And "
           }
